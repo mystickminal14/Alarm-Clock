@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aleo&family=Amatic+SC&family=Bangers&family=Bebas+Neue&family=Boogaloo&family=Dancing+Script:wght@500&family=Foldit:wght@600&family=Hammersmith+One&family=Kalam&family=Kaushan+Script&family=League+Gothic&family=Lobster+Two&family=Oswald&family=Patrick+Hand&family=Poppins:wght@200&family=Roboto+Condensed&family=Roboto:wght@500&family=Rouge+Script&family=Style+Script&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/402d710096.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Alarm.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="time">
+            <img src="alarm-clock-svgrepo-com.svg" alt='clock' width="150px">
+            <h1 id="time">00 :00 :00</h1>
+        </div>
+        <div class="menu">
+            <div class="first">
+                <select id="fir">
+                    <option class='menu-value' selected hidden>Hour</option>
+                </select>
+            </div>
+            <div class="secomd">
+                <select id="sec">
+                    <option class='menu-value' selected hidden>Minute</option>
+                </select>
+            </div>
+            <div class="third">
+                <select id="thi">
+                    <option class='menu-value' selected hidden>AM/PM</option>
+                </select>
+            </div>
+        </div><div class="buttonS"> <button id="btn" class="now">Set Alarm</button>
+            <button id="reset">Reset Button</button></div>
+       
+    </div>
+
+
+    <script src="Alarm.js"></script>
+</body>
+
+</html>
